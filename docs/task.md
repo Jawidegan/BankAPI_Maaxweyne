@@ -1,0 +1,21 @@
+# Maaxweyne Bank API Tasks
+
+- [x] Project Initialization
+    - [x] Initialize `npm` and install dependencies
+    - [x] Create folder structure (`src/controllers`, `src/middleware`, `src/routes`)
+    - [x] Set up `.env` file
+- [x] Database Setup (Prisma)
+    - [x] Initialize Prisma
+    - [x] Define `Transaction` schema
+    - [x] Run initial migration (create database if not exists)
+- [x] Security Implementation
+    - [x] Create HMAC signature verification middleware
+    - [x] Implement API Key validation
+    - [x] Set up global security middlewares (Helmet, CORS)
+- [x] API Development
+    - [x] Implement transaction controller
+    - [x] Set up routes
+    - [x] Main server entry point (`server.js`)
+- [x] Verification
+    - [x] Test with sample transaction payload
+    - [x] Verify database persistence
